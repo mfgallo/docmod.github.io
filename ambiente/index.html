@@ -84,6 +84,13 @@
                     Imagens de Treino
                 </a>
             </li>
+            <li class="drac-box">
+                <a href="../notebook_estudo.ipynb"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Tratamento dos dados
+                </a>
+            </li>
         </ul>
         <!-- endblock -->
     </div>
@@ -156,36 +163,11 @@
                 <section class="p-md-5 section-content">
     <article>
         <p><h1 id="criando-jupyter-notebook-com-docker">Criando Jupyter Notebook com Docker</h1>
-<p>Criando DockerFile</p>
-<pre><code class="language-DockerFile">FROM ubuntu:latest
-RUN apt-get update &amp;&amp; \
-    apt-get install -y python3.9 \
-    python3-pip
-
-RUN pip3 install JPype1 jupyter pandas numpy seaborn scipy matplotlib pyNetLogo SALib 
-
-RUN useradd -ms /bin/bash jupyter
-USER jupyter
-WORKDIR home/jupyter 
-EXPOSE 8888                                           
-ENTRYPOINT [&quot;jupyter&quot;, &quot;notebook&quot;,&quot;--allow-root&quot;,&quot;--ip=0.0.0.0&quot;,&quot;--port=8888&quot;,&quot;--no-browser&quot;]
+<p>Utilizando uma imagem já disponível no dockerhub (jupyter/tensorflow-notebook)</p>
+<pre><code class="language-script">    docker run jupyter/tensorflow-notebook
 </code></pre>
-<p>Procurando versão miniconda3</p>
-<pre><code class="language-shell">docker search miniconda3
-</code></pre>
-<p>Rodando versão mais atualizada</p>
-<pre><code class="language-shell">docker run -i -t --rm --name condaenv -p  8888:8888 continuumio/miniconda3 /bin/bash
-</code></pre>
-<p>Dentro do terminal do container roda os comandos abaixo:</p>
-<pre><code class="language-shell">conda update conda
-conda install python=3.9.6
-conda install -c conda-forge jpype1
-conda install jupyter pandas numpy  
-pip install SALib seaborn
-</code></pre>
-<p>Criando Jupyter Notebook</p>
-<pre><code class="language-shell">mkdir -p /opt/notebooks 
-jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888  --no-browser --allow-root
+<p>E depois executar docker run</p>
+<pre><code class="language-script">docker run -p 8888:8888 jupyter/tensorflow-notebook 
 </code></pre></p>
     </article>
 </section>
