@@ -3,5 +3,6 @@ nav:
   - Bem vindo à Marte: index.md
   - Ambiente: ambiente.md
   - Imagens de Treino: imagens_treino.md
+  - Tratamento dos dados: notebook_estudo.ipynb
 theme:
     name: 'dracula'
