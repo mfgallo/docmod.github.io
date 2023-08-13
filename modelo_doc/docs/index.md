@@ -2,8 +2,8 @@
 
 O objetivo deste trabalho é criar um modelo de visão computacional e tentar detectar locais em marte que possuem à probabilidade alta de ter existido vida Ex.(Lagos, Florestas, Rios)
 
+Quer contribuir com o estudo? <br></br>
+Contato: __mauriciogallojr1993@gmail.com__
+
+
 ![Marte](images/marte/Mars.png)
-
-
-Quer contribuir com o estudo?
-Contato: mauriciogallojr1993@gmail.com
