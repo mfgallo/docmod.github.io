@@ -1,6 +1,6 @@
 site_name: Modelo Visão Computacional
 nav:
-  - Bem vindo a Marte: index.md
+  - Bem vindo à Marte: index.md
   - Ambiente: ambiente.md
   - Imagens de Treino: imagens_treino.md
 theme:
