@@ -1,8 +1,7 @@
 site_name: Modelo Visão Computacional
 nav:
-  - Home: index.md
+  - Bem vindo a Marte: index.md
+  - Ambiente: ambiente.md
+  - Imagens de Treino: imagens_treino.md
 theme:
-    name: 'material'
-    palette:
-        primary: 'green'
-        accent: 'indigo'
+    name: 'dracula'
