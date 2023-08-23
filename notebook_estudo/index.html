@@ -1255,50 +1255,7 @@ Licensed under the Apache License, Version 2.0.
     }
     init_mathjax();
     </script>
-<!-- End of mathjax configuration --><div class="jupyter-wrapper"><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [9]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-<div class="CodeMirror cm-s-jupyter">
-<div class="zeroclipboard-container">
-<clipboard-copy for="cell-1">
-<div>
-<span class="notice" hidden="">Copied!</span>
-<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
-<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
-</svg>
-</div>
-</clipboard-copy>
-</div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">zipfile</span>
-<span class="kn">import</span> <span class="nn">cv2</span>
-<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="c1"># import seaborn as sns</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">warnings</span>
-</pre></div>
-<div class="clipboard-copy-txt" id="cell-1">import numpy as np
-import os
-import zipfile
-import cv2
-import tensorflow as tf
-import pandas as pd
-# import seaborn as sns
-import matplotlib.pyplot as plt
-import warnings</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<!-- End of mathjax configuration --><div class="jupyter-wrapper">
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -1315,10 +1272,10 @@ import warnings</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [31]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [39]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-2">
+<clipboard-copy for="cell-1">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1331,7 +1288,7 @@ import warnings</div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">diretorio</span> <span class="o">=</span> <span class="s1">'C:</span><span class="se">\\</span><span class="s1">Users</span><span class="se">\\</span><span class="s1">Mauri</span><span class="se">\\</span><span class="s1">Desktop</span><span class="se">\\</span><span class="s1">doc_modelo</span><span class="se">\\</span><span class="s1">jupyter-notebook</span><span class="se">\\</span><span class="s1">datasets'</span>
 <span class="n">arquivos</span> <span class="o">=</span> <span class="p">[</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">diretorio</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">(</span><span class="n">diretorio</span><span class="p">))]</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-2">diretorio = 'C:\\Users\\Mauri\\Desktop\\doc_modelo\\jupyter-notebook\\datasets'
+<div class="clipboard-copy-txt" id="cell-1">diretorio = 'C:\\Users\\Mauri\\Desktop\\doc_modelo\\jupyter-notebook\\datasets'
 arquivos = [os.path.join(diretorio, f) for f in sorted(os.listdir(diretorio))]
 </div>
 </div>
@@ -1356,10 +1313,10 @@ arquivos = [os.path.join(diretorio, f) for f in sorted(os.listdir(diretorio))]
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [40]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-3">
+<clipboard-copy for="cell-2">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1371,7 +1328,7 @@ arquivos = [os.path.join(diretorio, f) for f in sorted(os.listdir(diretorio))]
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">largura</span><span class="p">,</span> <span class="n">altura</span> <span class="o">=</span> <span class="mi">128</span><span class="p">,</span> <span class="mi">128</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-3">largura, altura = 128, 128</div>
+<div class="clipboard-copy-txt" id="cell-2">largura, altura = 128, 128</div>
 </div>
 </div>
 </div>
@@ -1408,10 +1365,10 @@ arquivos = [os.path.join(diretorio, f) for f in sorted(os.listdir(diretorio))]
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [30]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [41]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-4">
+<clipboard-copy for="cell-3">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1446,7 +1403,7 @@ arquivos = [os.path.join(diretorio, f) for f in sorted(os.listdir(diretorio))]
     <span class="n">classe</span> <span class="o">=</span> <span class="mi">1</span>
   <span class="n">classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">classe</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-4">imagens = []
+<div class="clipboard-copy-txt" id="cell-3">imagens = []
 classes = []
 for imagem_caminho in arquivos:
   try:
@@ -1493,10 +1450,10 @@ for imagem_caminho in arquivos:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [42]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-5">
+<clipboard-copy for="cell-4">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1509,7 +1466,7 @@ for imagem_caminho in arquivos:
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">imagens</span><span class="p">)</span>
 <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">classes</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-5">X = np.asarray(imagens)
+<div class="clipboard-copy-txt" id="cell-4">X = np.asarray(imagens)
 y = np.asarray(classes)</div>
 </div>
 </div>
@@ -1533,10 +1490,10 @@ y = np.asarray(classes)</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [14]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [43]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-6">
+<clipboard-copy for="cell-5">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1550,7 +1507,7 @@ y = np.asarray(classes)</div>
 <span class="n">scaler</span> <span class="o">=</span> <span class="n">MinMaxScaler</span><span class="p">()</span>
 <span class="n">X</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-6">from sklearn.preprocessing import MinMaxScaler
+<div class="clipboard-copy-txt" id="cell-5">from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
 X = scaler.fit_transform(X)</div>
 </div>
@@ -1575,10 +1532,10 @@ X = scaler.fit_transform(X)</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [44]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-7">
+<clipboard-copy for="cell-6">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1591,7 +1548,7 @@ X = scaler.fit_transform(X)</div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
 <span class="n">X_treinamento</span><span class="p">,</span> <span class="n">X_teste</span><span class="p">,</span> <span class="n">y_treinamento</span><span class="p">,</span> <span class="n">y_teste</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span> <span class="o">=</span> <span class="mf">0.2</span><span class="p">,</span> <span class="n">random_state</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-7">from sklearn.model_selection import train_test_split
+<div class="clipboard-copy-txt" id="cell-6">from sklearn.model_selection import train_test_split
 X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_size = 0.2, random_state = 1)</div>
 </div>
 </div>
@@ -1605,7 +1562,7 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>Calculando os valores de neurônios de entrada e da camada oculta da rede neural que será utilizada para o treino do modelo</p>
+<p>Calculando os valores dos neurônios de entrada e da camada oculta da rede neural que será utilizada para o treino do modelo</p>
 </div>
 </div>
 </div>
@@ -1615,10 +1572,10 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [16]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [45]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-8">
+<clipboard-copy for="cell-7">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1630,7 +1587,7 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="mi">128</span> <span class="o">*</span> <span class="mi">128</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-8">128 * 128</div>
+<div class="clipboard-copy-txt" id="cell-7">128 * 128</div>
 </div>
 </div>
 </div>
@@ -1640,7 +1597,7 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>16384</pre>
 </div>
@@ -1654,10 +1611,10 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [17]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [46]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-9">
+<clipboard-copy for="cell-8">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1669,7 +1626,7 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="p">(</span><span class="mi">16384</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-9">(16384 + 1) / 2</div>
+<div class="clipboard-copy-txt" id="cell-8">(16384 + 1) / 2</div>
 </div>
 </div>
 </div>
@@ -1679,7 +1636,7 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[46]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>8192.5</pre>
 </div>
@@ -1704,10 +1661,10 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [18]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [47]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-10">
+<clipboard-copy for="cell-9">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1720,10 +1677,12 @@ X_treinamento, X_teste, y_treinamento, y_teste = train_test_split(X, y, test_siz
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">network1</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Sequential</span><span class="p">()</span>
 <span class="n">network1</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="n">input_shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">16384</span><span class="p">,),</span> <span class="n">units</span> <span class="o">=</span> <span class="mi">8193</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">'relu'</span><span class="p">))</span>
 <span class="n">network1</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="mi">8193</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">'relu'</span><span class="p">))</span>
+<span class="n">network1</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="mi">8193</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">'relu'</span><span class="p">))</span>
 <span class="n">network1</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">'sigmoid'</span><span class="p">))</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-10">network1 = tf.keras.models.Sequential()
+<div class="clipboard-copy-txt" id="cell-9">network1 = tf.keras.models.Sequential()
 network1.add(tf.keras.layers.Dense(input_shape = (16384,), units = 8193, activation='relu'))
+network1.add(tf.keras.layers.Dense(units = 8193, activation='relu'))
 network1.add(tf.keras.layers.Dense(units = 8193, activation='relu'))
 network1.add(tf.keras.layers.Dense(units = 1, activation='sigmoid'))</div>
 </div>
@@ -1737,10 +1696,10 @@ network1.add(tf.keras.layers.Dense(units = 1, activation='sigmoid'))</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [19]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [48]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-11">
+<clipboard-copy for="cell-10">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1752,7 +1711,7 @@ network1.add(tf.keras.layers.Dense(units = 1, activation='sigmoid'))</div>
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">network1</span><span class="o">.</span><span class="n">summary</span><span class="p">()</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-11">network1.summary()</div>
+<div class="clipboard-copy-txt" id="cell-10">network1.summary()</div>
 </div>
 </div>
 </div>
@@ -1764,19 +1723,21 @@ network1.add(tf.keras.layers.Dense(units = 1, activation='sigmoid'))</div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Model: "sequential"
+<pre>Model: "sequential_1"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
- dense (Dense)               (None, 8193)              134242305 
+ dense_3 (Dense)             (None, 8193)              134242305 
                                                                  
- dense_1 (Dense)             (None, 8193)              67133442  
+ dense_4 (Dense)             (None, 8193)              67133442  
                                                                  
- dense_2 (Dense)             (None, 1)                 8194      
+ dense_5 (Dense)             (None, 8193)              67133442  
+                                                                 
+ dense_6 (Dense)             (None, 1)                 8194      
                                                                  
 =================================================================
-Total params: 201383941 (768.22 MB)
-Trainable params: 201383941 (768.22 MB)
+Total params: 268517383 (1.00 GB)
+Trainable params: 268517383 (1.00 GB)
 Non-trainable params: 0 (0.00 Byte)
 _________________________________________________________________
 </pre>
@@ -1791,10 +1752,10 @@ _________________________________________________________________
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [20]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [49]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-12">
+<clipboard-copy for="cell-11">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1806,7 +1767,7 @@ _________________________________________________________________
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">network1</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">optimizer</span><span class="o">=</span><span class="s1">'Adam'</span><span class="p">,</span> <span class="n">loss</span><span class="o">=</span><span class="s1">'binary_crossentropy'</span><span class="p">,</span> <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s1">'accuracy'</span><span class="p">])</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-12">network1.compile(optimizer='Adam', loss='binary_crossentropy', metrics=['accuracy'])</div>
+<div class="clipboard-copy-txt" id="cell-11">network1.compile(optimizer='Adam', loss='binary_crossentropy', metrics=['accuracy'])</div>
 </div>
 </div>
 </div>
@@ -1829,10 +1790,10 @@ _________________________________________________________________
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [21]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [50]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-13">
+<clipboard-copy for="cell-12">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1844,7 +1805,7 @@ _________________________________________________________________
 </div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">historico</span> <span class="o">=</span> <span class="n">network1</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_treinamento</span><span class="p">,</span> <span class="n">y_treinamento</span><span class="p">,</span> <span class="n">epochs</span> <span class="o">=</span> <span class="mi">50</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-13">historico = network1.fit(X_treinamento, y_treinamento, epochs = 50)</div>
+<div class="clipboard-copy-txt" id="cell-12">historico = network1.fit(X_treinamento, y_treinamento, epochs = 50)</div>
 </div>
 </div>
 </div>
@@ -1857,105 +1818,105 @@ _________________________________________________________________
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>Epoch 1/50
-15/15 [==============================] - 34s 2s/step - loss: 31.2330 - accuracy: 0.4786
+15/15 [==============================] - 120s 8s/step - loss: 64.6805 - accuracy: 0.5321
 Epoch 2/50
-15/15 [==============================] - 30s 2s/step - loss: 3.9258 - accuracy: 0.5406
+15/15 [==============================] - 36s 2s/step - loss: 0.9283 - accuracy: 0.4979
 Epoch 3/50
-15/15 [==============================] - 29s 2s/step - loss: 3.4102 - accuracy: 0.4872
+15/15 [==============================] - 38s 3s/step - loss: 0.8958 - accuracy: 0.5876
 Epoch 4/50
-15/15 [==============================] - 29s 2s/step - loss: 1.4325 - accuracy: 0.5235
+15/15 [==============================] - 36s 2s/step - loss: 1.0402 - accuracy: 0.5641
 Epoch 5/50
-15/15 [==============================] - 29s 2s/step - loss: 0.7343 - accuracy: 0.5940
+15/15 [==============================] - 35s 2s/step - loss: 0.6107 - accuracy: 0.6154
 Epoch 6/50
-15/15 [==============================] - 28s 2s/step - loss: 0.6507 - accuracy: 0.6132
+15/15 [==============================] - 34s 2s/step - loss: 0.5901 - accuracy: 0.5812
 Epoch 7/50
-15/15 [==============================] - 29s 2s/step - loss: 0.9566 - accuracy: 0.4936
+15/15 [==============================] - 34s 2s/step - loss: 0.6000 - accuracy: 0.6538
 Epoch 8/50
-15/15 [==============================] - 29s 2s/step - loss: 0.7421 - accuracy: 0.5214
+15/15 [==============================] - 34s 2s/step - loss: 0.5554 - accuracy: 0.7415
 Epoch 9/50
-15/15 [==============================] - 29s 2s/step - loss: 0.6815 - accuracy: 0.5684
+15/15 [==============================] - 34s 2s/step - loss: 0.5637 - accuracy: 0.7201
 Epoch 10/50
-15/15 [==============================] - 29s 2s/step - loss: 0.6218 - accuracy: 0.6068
+15/15 [==============================] - 34s 2s/step - loss: 0.5316 - accuracy: 0.7692
 Epoch 11/50
-15/15 [==============================] - 29s 2s/step - loss: 0.5876 - accuracy: 0.6282
+15/15 [==============================] - 34s 2s/step - loss: 0.5303 - accuracy: 0.7927
 Epoch 12/50
-15/15 [==============================] - 28s 2s/step - loss: 0.5694 - accuracy: 0.6132
+15/15 [==============================] - 34s 2s/step - loss: 0.5034 - accuracy: 0.8034
 Epoch 13/50
-15/15 [==============================] - 29s 2s/step - loss: 0.5297 - accuracy: 0.6645
+15/15 [==============================] - 34s 2s/step - loss: 0.5654 - accuracy: 0.7244
 Epoch 14/50
-15/15 [==============================] - 33s 2s/step - loss: 0.5620 - accuracy: 0.6923
+15/15 [==============================] - 34s 2s/step - loss: 0.5313 - accuracy: 0.7286
 Epoch 15/50
-15/15 [==============================] - 31s 2s/step - loss: 0.5876 - accuracy: 0.6282
+15/15 [==============================] - 36s 2s/step - loss: 0.5085 - accuracy: 0.8013
 Epoch 16/50
-15/15 [==============================] - 32s 2s/step - loss: 0.5221 - accuracy: 0.6902
+15/15 [==============================] - 35s 2s/step - loss: 0.4829 - accuracy: 0.8590
 Epoch 17/50
-15/15 [==============================] - 30s 2s/step - loss: 0.5274 - accuracy: 0.7201
+15/15 [==============================] - 34s 2s/step - loss: 0.4790 - accuracy: 0.8632
 Epoch 18/50
-15/15 [==============================] - 30s 2s/step - loss: 0.5478 - accuracy: 0.7350
+15/15 [==============================] - 33s 2s/step - loss: 0.4656 - accuracy: 0.9060
 Epoch 19/50
-15/15 [==============================] - 27s 2s/step - loss: 0.5551 - accuracy: 0.7073
+15/15 [==============================] - 32s 2s/step - loss: 0.4734 - accuracy: 0.8803
 Epoch 20/50
-15/15 [==============================] - 29s 2s/step - loss: 0.5121 - accuracy: 0.8291
+15/15 [==============================] - 32s 2s/step - loss: 0.4619 - accuracy: 0.8568
 Epoch 21/50
-15/15 [==============================] - 28s 2s/step - loss: 0.4869 - accuracy: 0.7906
+15/15 [==============================] - 32s 2s/step - loss: 0.4566 - accuracy: 0.8889
 Epoch 22/50
-15/15 [==============================] - 26s 2s/step - loss: 0.4792 - accuracy: 0.7906
+15/15 [==============================] - 32s 2s/step - loss: 0.4047 - accuracy: 0.8974
 Epoch 23/50
-15/15 [==============================] - 27s 2s/step - loss: 0.4790 - accuracy: 0.8141
+15/15 [==============================] - 32s 2s/step - loss: 0.4138 - accuracy: 0.8803
 Epoch 24/50
-15/15 [==============================] - 27s 2s/step - loss: 0.4601 - accuracy: 0.8397
+15/15 [==============================] - 32s 2s/step - loss: 0.3741 - accuracy: 0.9338
 Epoch 25/50
-15/15 [==============================] - 30s 2s/step - loss: 0.5116 - accuracy: 0.7479
+15/15 [==============================] - 32s 2s/step - loss: 0.3593 - accuracy: 0.9380
 Epoch 26/50
-15/15 [==============================] - 29s 2s/step - loss: 0.4516 - accuracy: 0.8568
+15/15 [==============================] - 34s 2s/step - loss: 0.3654 - accuracy: 0.9402
 Epoch 27/50
-15/15 [==============================] - 29s 2s/step - loss: 1.1223 - accuracy: 0.6026
+15/15 [==============================] - 33s 2s/step - loss: 0.3558 - accuracy: 0.9145
 Epoch 28/50
-15/15 [==============================] - 31s 2s/step - loss: 0.6157 - accuracy: 0.7009
+15/15 [==============================] - 32s 2s/step - loss: 0.3391 - accuracy: 0.9466
 Epoch 29/50
-15/15 [==============================] - 32s 2s/step - loss: 0.5188 - accuracy: 0.7500
+15/15 [==============================] - 32s 2s/step - loss: 0.3341 - accuracy: 0.9402
 Epoch 30/50
-15/15 [==============================] - 31s 2s/step - loss: 0.5521 - accuracy: 0.7094
+15/15 [==============================] - 32s 2s/step - loss: 0.5925 - accuracy: 0.7628
 Epoch 31/50
-15/15 [==============================] - 31s 2s/step - loss: 0.5561 - accuracy: 0.6859
+15/15 [==============================] - 32s 2s/step - loss: 0.3472 - accuracy: 0.9423
 Epoch 32/50
-15/15 [==============================] - 31s 2s/step - loss: 0.5054 - accuracy: 0.7265
+15/15 [==============================] - 32s 2s/step - loss: 0.3235 - accuracy: 0.9167
 Epoch 33/50
-15/15 [==============================] - 31s 2s/step - loss: 0.4883 - accuracy: 0.8483
+15/15 [==============================] - 32s 2s/step - loss: 0.3177 - accuracy: 0.9380
 Epoch 34/50
-15/15 [==============================] - 31s 2s/step - loss: 0.4813 - accuracy: 0.8205
+15/15 [==============================] - 32s 2s/step - loss: 0.3247 - accuracy: 0.9295
 Epoch 35/50
-15/15 [==============================] - 30s 2s/step - loss: 0.4469 - accuracy: 0.8504
+15/15 [==============================] - 32s 2s/step - loss: 0.2915 - accuracy: 0.9509
 Epoch 36/50
-15/15 [==============================] - 29s 2s/step - loss: 0.4148 - accuracy: 0.8910
+15/15 [==============================] - 32s 2s/step - loss: 0.2868 - accuracy: 0.9316
 Epoch 37/50
-15/15 [==============================] - 31s 2s/step - loss: 0.5559 - accuracy: 0.7179
+15/15 [==============================] - 32s 2s/step - loss: 0.2921 - accuracy: 0.9338
 Epoch 38/50
-15/15 [==============================] - 31s 2s/step - loss: 0.4659 - accuracy: 0.8590
+15/15 [==============================] - 32s 2s/step - loss: 0.3158 - accuracy: 0.9466
 Epoch 39/50
-15/15 [==============================] - 31s 2s/step - loss: 0.3944 - accuracy: 0.9444
+15/15 [==============================] - 32s 2s/step - loss: 0.2490 - accuracy: 0.9573
 Epoch 40/50
-15/15 [==============================] - 32s 2s/step - loss: 0.3709 - accuracy: 0.9167
+15/15 [==============================] - 32s 2s/step - loss: 0.2394 - accuracy: 0.9615
 Epoch 41/50
-15/15 [==============================] - 31s 2s/step - loss: 0.3831 - accuracy: 0.8953
+15/15 [==============================] - 32s 2s/step - loss: 0.2534 - accuracy: 0.9551
 Epoch 42/50
-15/15 [==============================] - 32s 2s/step - loss: 0.4534 - accuracy: 0.8397
+15/15 [==============================] - 32s 2s/step - loss: 0.3249 - accuracy: 0.9145
 Epoch 43/50
-15/15 [==============================] - 31s 2s/step - loss: 0.3838 - accuracy: 0.9252
+15/15 [==============================] - 32s 2s/step - loss: 0.3287 - accuracy: 0.8974
 Epoch 44/50
-15/15 [==============================] - 32s 2s/step - loss: 0.3825 - accuracy: 0.8974
+15/15 [==============================] - 32s 2s/step - loss: 0.9001 - accuracy: 0.7521
 Epoch 45/50
-15/15 [==============================] - 31s 2s/step - loss: 0.3522 - accuracy: 0.9338
+15/15 [==============================] - 32s 2s/step - loss: 0.4969 - accuracy: 0.8654
 Epoch 46/50
-15/15 [==============================] - 31s 2s/step - loss: 0.3697 - accuracy: 0.9081
+15/15 [==============================] - 32s 2s/step - loss: 0.3301 - accuracy: 0.9124
 Epoch 47/50
-15/15 [==============================] - 32s 2s/step - loss: 0.3486 - accuracy: 0.9444
+15/15 [==============================] - 32s 2s/step - loss: 0.2674 - accuracy: 0.9487
 Epoch 48/50
-15/15 [==============================] - 29s 2s/step - loss: 0.3704 - accuracy: 0.9359
+15/15 [==============================] - 32s 2s/step - loss: 0.2741 - accuracy: 0.9444
 Epoch 49/50
-15/15 [==============================] - 32s 2s/step - loss: 0.3365 - accuracy: 0.9402
+15/15 [==============================] - 32s 2s/step - loss: 0.2586 - accuracy: 0.9444
 Epoch 50/50
-15/15 [==============================] - 32s 2s/step - loss: 0.3460 - accuracy: 0.9316
+15/15 [==============================] - 32s 2s/step - loss: 0.2517 - accuracy: 0.9124
 </pre>
 </div>
 </div>
@@ -1979,10 +1940,10 @@ Epoch 50/50
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [22]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [51]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-14">
+<clipboard-copy for="cell-13">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -1995,7 +1956,7 @@ Epoch 50/50
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">previsoes</span> <span class="o">=</span> <span class="n">network1</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_teste</span><span class="p">)</span>
 <span class="n">previsoes</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-14">previsoes = network1.predict(X_teste)
+<div class="clipboard-copy-txt" id="cell-13">previsoes = network1.predict(X_teste)
 previsoes</div>
 </div>
 </div>
@@ -2008,130 +1969,130 @@ previsoes</div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>4/4 [==============================] - 1s 76ms/step
+<pre>4/4 [==============================] - 2s 81ms/step
 </pre>
 </div>
 </div>
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[22]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[51]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([[9.29415464e-01],
-       [2.65468985e-01],
-       [4.58878517e-01],
-       [9.69877005e-01],
-       [3.99204969e-01],
-       [9.36630249e-01],
-       [9.46110368e-01],
-       [9.77903962e-01],
-       [9.53524709e-01],
-       [9.27357972e-01],
-       [3.72371197e-01],
-       [9.70476568e-01],
-       [6.32873774e-01],
-       [3.57293457e-01],
-       [9.28717077e-01],
-       [9.74940300e-01],
-       [3.47029984e-01],
-       [2.27443337e-01],
-       [2.98891336e-01],
-       [5.28581440e-01],
-       [3.57239544e-01],
-       [4.34301615e-01],
-       [9.80469644e-01],
-       [9.12747850e-13],
-       [9.66940284e-01],
-       [3.34321082e-01],
-       [4.99393880e-01],
-       [9.26566422e-01],
-       [2.34452918e-01],
-       [3.23847145e-01],
-       [9.49760675e-01],
-       [3.37948263e-01],
-       [9.74491656e-01],
-       [9.69619274e-01],
-       [6.58110157e-02],
-       [4.50372458e-01],
-       [5.44207394e-01],
-       [2.20903322e-01],
-       [9.04878676e-01],
-       [8.92923057e-01],
-       [9.56743717e-01],
-       [9.40769792e-01],
-       [9.46068645e-01],
-       [2.10990921e-01],
-       [9.59635377e-01],
-       [9.71912026e-01],
-       [2.73547530e-01],
-       [9.83455956e-01],
-       [5.98015428e-01],
-       [2.76427746e-01],
-       [9.63925779e-01],
-       [2.62690365e-01],
-       [3.97578329e-01],
-       [9.35350120e-01],
-       [9.79803145e-01],
-       [2.59552509e-01],
-       [9.51770425e-01],
-       [8.77704978e-01],
-       [2.15259212e-25],
-       [3.27605337e-01],
-       [2.66376048e-01],
-       [9.69442427e-01],
-       [9.68612075e-01],
-       [9.72630620e-01],
-       [9.46475446e-01],
-       [9.37607169e-01],
-       [3.34176302e-01],
-       [2.51062453e-01],
-       [2.64411420e-01],
-       [5.89653909e-01],
-       [9.71240401e-01],
-       [6.00848854e-01],
-       [6.96748912e-01],
-       [1.27749249e-01],
-       [3.47280562e-01],
-       [9.16065276e-01],
-       [9.77938354e-01],
-       [9.15931046e-01],
-       [4.90323454e-01],
-       [9.74601448e-01],
-       [9.52137828e-01],
-       [3.37407321e-01],
-       [5.99948271e-06],
-       [3.98839861e-01],
-       [9.46124017e-01],
-       [9.82501209e-01],
-       [9.40996289e-01],
-       [3.69605064e-01],
-       [2.90786028e-01],
-       [4.71716017e-01],
-       [9.67293799e-01],
-       [9.66357410e-01],
-       [5.15206575e-01],
-       [5.62730432e-01],
-       [2.21543506e-01],
-       [5.81097424e-01],
-       [2.19017521e-01],
-       [9.57866609e-01],
-       [9.79546070e-01],
-       [3.96106660e-01],
-       [3.05034965e-01],
-       [7.34072983e-01],
-       [9.75420475e-01],
-       [9.61490870e-01],
-       [9.68504250e-01],
-       [3.60820532e-01],
-       [4.22702312e-01],
-       [7.11442317e-06],
-       [2.34179571e-01],
-       [6.16247594e-01],
-       [1.24941835e-17],
-       [9.48589683e-01],
-       [4.82330382e-01],
-       [9.70823228e-01],
-       [3.06890041e-01],
-       [9.88930166e-01],
-       [9.54206526e-01]], dtype=float32)</pre>
+<pre>array([[9.31006491e-01],
+       [1.46860154e-02],
+       [7.26483390e-02],
+       [9.70884502e-01],
+       [4.45418023e-02],
+       [9.37348485e-01],
+       [9.48770165e-01],
+       [9.66215670e-01],
+       [9.44906890e-01],
+       [9.13641512e-01],
+       [3.42096761e-02],
+       [9.65459824e-01],
+       [2.48189434e-01],
+       [4.37624045e-02],
+       [9.28706527e-01],
+       [9.71341074e-01],
+       [4.51333225e-02],
+       [1.26068685e-02],
+       [1.91124938e-02],
+       [5.25300242e-02],
+       [3.04813180e-02],
+       [5.88197559e-02],
+       [9.82550383e-01],
+       [5.86705515e-04],
+       [9.64562714e-01],
+       [2.92581115e-02],
+       [1.25355318e-01],
+       [9.42637622e-01],
+       [1.22903688e-02],
+       [2.77749375e-02],
+       [9.52490151e-01],
+       [2.35475544e-02],
+       [9.72829580e-01],
+       [9.71879244e-01],
+       [1.43642463e-02],
+       [4.73336279e-02],
+       [1.56601012e-01],
+       [1.17371418e-02],
+       [8.65044475e-01],
+       [9.50768650e-01],
+       [9.59714592e-01],
+       [9.38364446e-01],
+       [9.28187013e-01],
+       [1.02984104e-02],
+       [9.31694984e-01],
+       [9.73460555e-01],
+       [1.62206832e-02],
+       [9.74724054e-01],
+       [1.68777615e-01],
+       [1.60488933e-02],
+       [9.15423751e-01],
+       [1.42035447e-02],
+       [3.82227749e-02],
+       [9.38807368e-01],
+       [9.65549350e-01],
+       [1.45565430e-02],
+       [9.56084847e-01],
+       [8.37120414e-01],
+       [7.48335545e-35],
+       [2.99629062e-01],
+       [1.60080362e-02],
+       [9.74493027e-01],
+       [9.71578181e-01],
+       [9.70734477e-01],
+       [9.58038807e-01],
+       [9.39750969e-01],
+       [4.46236692e-02],
+       [1.60397198e-02],
+       [1.51963048e-02],
+       [1.72653496e-01],
+       [9.67416286e-01],
+       [2.11984083e-01],
+       [2.75761545e-01],
+       [1.01319132e-02],
+       [3.71826179e-02],
+       [9.16618586e-01],
+       [9.80830491e-01],
+       [9.18006837e-01],
+       [9.97372568e-02],
+       [9.81419921e-01],
+       [9.49140906e-01],
+       [2.48434097e-02],
+       [3.80773358e-02],
+       [3.88480164e-02],
+       [9.39219415e-01],
+       [9.85332906e-01],
+       [9.41337585e-01],
+       [3.13026942e-02],
+       [1.78279039e-02],
+       [6.95310086e-02],
+       [9.68966782e-01],
+       [9.65951622e-01],
+       [1.26658976e-01],
+       [1.36218354e-01],
+       [5.95399551e-02],
+       [1.90579474e-01],
+       [1.21521149e-02],
+       [9.64831710e-01],
+       [9.73754108e-01],
+       [6.47833571e-02],
+       [2.39069108e-02],
+       [3.58552456e-01],
+       [9.75719452e-01],
+       [9.63024676e-01],
+       [9.69874263e-01],
+       [3.52393202e-02],
+       [5.84299937e-02],
+       [3.71116884e-02],
+       [1.27724865e-02],
+       [1.78497881e-01],
+       [1.04477559e-03],
+       [9.55698907e-01],
+       [8.88768882e-02],
+       [9.78473544e-01],
+       [2.90593114e-02],
+       [9.89643395e-01],
+       [9.59689796e-01]], dtype=float32)</pre>
 </div>
 </div>
 </div>
@@ -2143,10 +2104,10 @@ previsoes</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [23]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [52]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
-<clipboard-copy for="cell-15">
+<clipboard-copy for="cell-14">
 <div>
 <span class="notice" hidden="">Copied!</span>
 <svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
@@ -2159,7 +2120,7 @@ previsoes</div>
 <div class="highlight-ipynb hl-python"><pre><span></span><span class="n">previsoes</span> <span class="o">=</span> <span class="p">(</span><span class="n">previsoes</span> <span class="o">&gt;</span> <span class="mf">0.5</span><span class="p">)</span>
 <span class="n">previsoes</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-15">previsoes = (previsoes &gt; 0.5)
+<div class="clipboard-copy-txt" id="cell-14">previsoes = (previsoes &gt; 0.5)
 previsoes</div>
 </div>
 </div>
@@ -2170,7 +2131,7 @@ previsoes</div>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[23]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>array([[ True],
        [False],
@@ -2184,27 +2145,21 @@ previsoes</div>
        [ True],
        [False],
        [ True],
-       [ True],
-       [False],
-       [ True],
-       [ True],
-       [False],
        [False],
        [False],
        [ True],
-       [False],
-       [False],
-       [ True],
-       [False],
        [ True],
        [False],
        [False],
-       [ True],
+       [False],
+       [False],
        [False],
        [False],
        [ True],
        [False],
        [ True],
+       [False],
+       [False],
        [ True],
        [False],
        [False],
@@ -2212,10 +2167,13 @@ previsoes</div>
        [False],
        [ True],
        [ True],
-       [ True],
-       [ True],
-       [ True],
        [False],
+       [False],
+       [False],
+       [False],
+       [ True],
+       [ True],
+       [ True],
        [ True],
        [ True],
        [False],
@@ -2226,28 +2184,8 @@ previsoes</div>
        [False],
        [False],
        [ True],
-       [ True],
-       [False],
-       [ True],
-       [ True],
        [False],
        [False],
-       [False],
-       [ True],
-       [ True],
-       [ True],
-       [ True],
-       [ True],
-       [False],
-       [False],
-       [False],
-       [ True],
-       [ True],
-       [ True],
-       [ True],
-       [False],
-       [False],
-       [ True],
        [ True],
        [ True],
        [False],
@@ -2259,22 +2197,6 @@ previsoes</div>
        [ True],
        [ True],
        [ True],
-       [False],
-       [False],
-       [False],
-       [ True],
-       [ True],
-       [ True],
-       [ True],
-       [False],
-       [ True],
-       [False],
-       [ True],
-       [ True],
-       [False],
-       [False],
-       [ True],
-       [ True],
        [ True],
        [ True],
        [False],
@@ -2282,6 +2204,45 @@ previsoes</div>
        [False],
        [False],
        [ True],
+       [False],
+       [False],
+       [False],
+       [False],
+       [ True],
+       [ True],
+       [ True],
+       [False],
+       [ True],
+       [ True],
+       [False],
+       [False],
+       [False],
+       [ True],
+       [ True],
+       [ True],
+       [False],
+       [False],
+       [False],
+       [ True],
+       [ True],
+       [False],
+       [False],
+       [False],
+       [False],
+       [False],
+       [ True],
+       [ True],
+       [False],
+       [False],
+       [False],
+       [ True],
+       [ True],
+       [ True],
+       [False],
+       [False],
+       [False],
+       [False],
+       [False],
        [False],
        [ True],
        [False],
@@ -2300,7 +2261,51 @@ previsoes</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [24]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [53]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="CodeMirror cm-s-jupyter">
+<div class="zeroclipboard-container">
+<clipboard-copy for="cell-15">
+<div>
+<span class="notice" hidden="">Copied!</span>
+<svg aria-hidden="true" class="clipboard-copy-icon" data-view-component="true" height="20" version="1.1" viewbox="0 0 16 16" width="20">
+<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+</div>
+</clipboard-copy>
+</div>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">y_teste</span>
+</pre></div>
+<div class="clipboard-copy-txt" id="cell-15">y_teste</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>array([1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
+       1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0,
+       1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1,
+       0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0,
+       0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0,
+       0, 1, 0, 0, 0, 1, 1])</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [54]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-16">
@@ -2313,26 +2318,15 @@ previsoes</div>
 </div>
 </clipboard-copy>
 </div>
-<div class="highlight-ipynb hl-python"><pre><span></span><span class="n">y_teste</span>
+<div class="highlight-ipynb hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">previsoes</span><span class="p">,</span> <span class="n">y_teste</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"verificacao_modelo.txt"</span><span class="p">)</span>
 </pre></div>
-<div class="clipboard-copy-txt" id="cell-16">y_teste</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[24]:</div>
-<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([1, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,
-       1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 0,
-       1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1,
-       0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0,
-       0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0,
-       0, 1, 0, 0, 0, 1, 1])</pre>
+<div class="clipboard-copy-txt" id="cell-16">import pandas as pd
+
+df = pd.DataFrame(previsoes, y_teste)
+df.to_csv("verificacao_modelo.txt") </div>
 </div>
 </div>
 </div>
@@ -2355,7 +2349,7 @@ previsoes</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [25]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [55]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-17">
@@ -2382,9 +2376,9 @@ accuracy_score(y_teste, previsoes)</div>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[25]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[55]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>0.8547008547008547</pre>
+<pre>0.9572649572649573</pre>
 </div>
 </div>
 </div>
@@ -2407,7 +2401,7 @@ accuracy_score(y_teste, previsoes)</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [56]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-18">
@@ -2436,9 +2430,9 @@ cm</div>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[26]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
-<pre>array([[51, 17],
+<pre>array([[63,  5],
        [ 0, 49]], dtype=int64)</pre>
 </div>
 </div>
@@ -2451,7 +2445,7 @@ cm</div>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [57]:</div><div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="CodeMirror cm-s-jupyter">
 <div class="zeroclipboard-container">
 <clipboard-copy for="cell-19">
@@ -2478,7 +2472,7 @@ sns.heatmap(cm, annot=True)</div>
 </div>
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child jp-OutputArea-executeResult">
-<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[27]:</div>
+<div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
 <div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
 <pre>&lt;Axes: &gt;</pre>
 </div>
@@ -2486,7 +2480,7 @@ sns.heatmap(cm, annot=True)</div>
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedImage jp-OutputArea-output">
-<img alt="No description has been provided for this image" class="" src="data:image/png;base64,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"/>
+<img alt="No description has been provided for this image" class="" src="data:image/png;base64,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"/>
 </div>
 </div>
 </div>
